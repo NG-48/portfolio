@@ -98,3 +98,34 @@ h2 {
     font-size: 1.8em;
     font-weight: bold;
 }
+
+/* Dropdown base styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    z-index: 999;
+    flex-direction: column;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+    background-color: #040404;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
