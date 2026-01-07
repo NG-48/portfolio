@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site vitrine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="presentationDeSoi.html">Qui suis-je</a></li>
+            <li class="dropdown">
+                <a href="#">Projets</a>
+                <div class="dropdown-menu">
+                    <a href="trains.html">Trains</a>
+                    <a href="PHP.html">Application WEB</a>
+                    <a href="IA.html">IAs en Machine Learning</a>
+                    
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Nuits de l'Info</a>
+                <div class="dropdown-menu">
+                    <a href="NDI2024.html">2024 - Race for water</a>
+                    <a href="NDI2025.html">2025 - N.I.R.D.</a>
+                </div>
+            </li>
+            <li><a href="stage.html">Stage : Réalisation d'un site vitrine</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>SAE : Agents intelligents en Machine Learning</h1>
+
+<h2>Contexte du projet</h2>
+<p>
+Ce projet a été réalisé dans le cadre d’une SAE portant sur le développement d’agents intelligents en machine learning et en apprentissage par renforcement.
+L’objectif était de concevoir et d’implémenter différents agents capables d’interagir avec des environnements simulés afin d’apprendre des stratégies optimales par l’expérience.
+</p>
+
+<p>
+Pour cela, nous avons utilisé la bibliothèque <strong>Gymnasium</strong>, qui fournit des environnements standards servant de terrains d’expérimentation pour les algorithmes d’apprentissage par renforcement.
+</p>
+
+<p><strong>Travail réalisé :</strong> Développement de plusieurs agents intelligents appliqués à différents environnements, avec comparaison de leurs performances et comportements.</p>
+
+<h2>Méthodes de travail</h2>
+<p>
+Le projet a été mené de manière progressive, en commençant par l’étude du fonctionnement des environnements Gymnasium et des principes fondamentaux de l’apprentissage par renforcement.
+Nous avons ensuite implémenté nous-mêmes les agents, sans utiliser de solutions toutes faites, afin de bien comprendre les mécanismes internes des algorithmes.
+</p>
+
+<p>
+Nous avons développé et testé plusieurs agents sur différents environnements, notamment :
+</p>
+<ul>
+    <li><strong>Cliff Walking :</strong> apprentissage d’un chemin optimal en évitant des zones à forte pénalité.</li>
+    <li><strong>Frozen Lake :</strong> gestion de l’incertitude et des transitions probabilistes.</li>
+    <li><strong>CartPole :</strong> apprentissage du contrôle d’un système dynamique.</li>
+    <li><strong>Blackjack :</strong> prise de décision stratégique dans un environnement stochastique.</li>
+</ul>
+
+<p>
+Les agents ont été implémentés à l’aide de différents algorithmes, principalement le <strong>Q-learning</strong> et le <strong>Monte Carlo Tree Search (MCTS)</strong>, permettant de comparer des approches basées sur l’exploration et l’optimisation des récompenses.
+</p>
+
+<h2>Compétences travaillées</h2>
+<p>
+Ce projet m’a permis de développer et renforcer des compétences à la fois théoriques et pratiques en intelligence artificielle :
+</p>
+
+<ul>
+    <li><strong>Apprentissage par renforcement :</strong> compréhension des notions d’état, d’action, de récompense et de politique.</li>
+    <li><strong>Q-learning :</strong> implémentation d’un algorithme d’apprentissage basé sur la mise à jour d’une table Q et l’exploration/exploitation.</li>
+    <li><strong>MCTS :</strong> conception d’un agent utilisant la recherche arborescente et les simulations pour la prise de décision.</li>
+    <li><strong>Python :</strong> développement d’agents, gestion des environnements Gymnasium et analyse des résultats.</li>
+    <li><strong>Analyse et expérimentation :</strong> comparaison des performances des agents selon les environnements et les paramètres.</li>
+</ul>
+
+<img src="img/blackjack.gif" alt="gif de l'environnement blackjack de la documentation officiel de gymnasium">
+
+</main>
+
+
+<footer>
+    <p>&copy; 2025 Benhalima Mattéo. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
